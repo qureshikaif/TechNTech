@@ -13,7 +13,7 @@ h5 {
     text-align: center;
 }
 
-main {
+.card-container-home {
   display: flex;
   padding: 0;
   margin: 0;
@@ -44,6 +44,10 @@ main {
     width: 500px;
     height: 700px;
 }
+.sendMessageDiv h5 {
+    font-size:35px;
+    font-weight: 900;
+}
 
 .whatsNextDiv {
     border: 1px solid green;
@@ -53,7 +57,10 @@ main {
     width:400px;
     margin-top: 230px;
 }
-.third_div {
+.whatsNextDiv div {
+    padding-left: 30px;
+}
+.footer {
     background-color:rgb(24, 24, 24);
     width: 100%;
     display: flex;
@@ -103,22 +110,29 @@ input,textarea {
 .submitCustom:hover {
     background-color: black;
 }
-.flex-items a {
+.footer-items a {
     text-decoration: none;
 }
-.flex-container {
+.text-img-container-about {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    background-color: rgb(24, 24, 24);
 }
-.flex-items-about {
+.text-img-container-about img {
+    width:20%;
+    height: 20%;
+}
+.text-items-about {
     width: 60%;
     text-align: justify;
     padding: 10px;
 }
-.img-container { 
+.img-container-about { 
+    padding: 100px;
     display: flex;
     flex-direction: column;
+    background-color:rgb(44, 44, 44);
     align-items: center;
 }
 .whatsNextDiv a {
@@ -127,17 +141,19 @@ input,textarea {
     color:green;
     text-decoration: none;
 }
-.third_div > div:nth-child(2) {
+.footer > div:nth-child(2) {
     margin-left: 200px;
 }
-.location-div {
+.location-div-contact {
+    padding: 20px;
     text-align: center;
-    width: 35rem;
-    margin-left:475px;
-    height: 15rem;
-    margin-top: 50px;
+    width: 35%;
+    background-color: black;
 }
-.location-div h5 {
+.location-div-contact img {
+    width: 70px;
+}
+.location-div-contact h5 {
     font-weight: 900;
     font-size:25px;
 }
@@ -171,10 +187,10 @@ input,textarea {
     height:40px;
     transition: 0.5s ease-in-out;;
 }
-.img-container img {
-    width:40%;
+.img-container-about img {
+    width:30%;
 }
-.website_button {
+.website-button-home {
     width:100px;
     margin-top:50px;
     background-color:green;
@@ -182,22 +198,21 @@ input,textarea {
     height:40px;
     transition: 0.5s ease-in-out;;
 }
-.website_button:hover {
+.website-button-home:hover {
     transform: scale(1.1);
 }
-.website_button a {
+.website-button-home a {
     text-decoration: none;
 }
-.second_div {
+.youtube-content-home {
     background:black;
     width: 100%;
-    margin-top: auto;
 }
-.card_custom p {
+.brands-card-home p {
     font-size:13px;
     text-align: justify;
 }
-.second_div iframe {
+.youtube-content-home iframe {
     width:100%;
     height:100vh;
 }
@@ -244,7 +259,7 @@ input,textarea {
 .navbar ul li a:hover {
     color:green;
 }
-.card_custom {
+.brands-card-home {
     border:1px solid grey;
     width:330px;
     background-color:rgb(24, 24, 24);
@@ -252,19 +267,19 @@ input,textarea {
     padding:15px;
     margin: 50px;
     color:white;
-    box-shadow: 20px 10px 20px green;
+    box-shadow: 0px 0px 20px green;
     transform: scale(1);
     transition: 0.5s ease-in-out;
     
 }
-.card_custom img {
+.brands-card-home img {
     width: 100px;
 }
-.card_custom:hover {
+.brands-card-home:hover {
     box-shadow:20px 10px 0px green;
     transform: scale(1.02);
 }
-.flex-items {
+.footer-items {
     flex-wrap: wrap;
     width:33%;
     padding: 50px;
@@ -290,4 +305,17 @@ input,textarea {
 .flex-banner-buttons button:hover {
     background-color: green;
     transform: scale(1.01);
+}
+.location-container-contact {
+    display: flex;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+.message-next-contact {
+    display:flex;
+    background-color: black;
+    padding-top: 50px;
+    padding-bottom: 100px;
 }
