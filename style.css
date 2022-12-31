@@ -390,3 +390,38 @@ img[src="images/asusproduct2.png"] {
     background-color: green;
     transform: scale(1.01);
 } */
+.product-details-legion {
+    display: flex;
+    align-items:center;
+    justify-content: space-evenly;
+    background-color: black;
+    height: 100vh;
+}
+.legion-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 600px;
+}
+.legion-text {
+    width: 50%;
+    text-align: center;
+}
+.legion-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+    margin-top: 50px;
+}
+.legion-buttons a {
+    margin-left: 10px;
+    padding: 20px;
+    background-color: green;
+    border-radius: 40px;
+    text-decoration: none;
+    transition: 0.5s ease-in-out;
+}
+.legion-buttons a:hover {
+   background-color:rgb(1, 86, 1); 
+ }
