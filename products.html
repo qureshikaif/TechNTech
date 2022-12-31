@@ -6,50 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Products - TechnTech</title>
     <link rel="stylesheet" href="style.css">
-    <style>
-        .product-banner {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            height: 100vh;
-        }
-        .product-banner h5:hover {
-            transform: scale(1.1);
-        }
-        .product-banner h5 {
-            font-weight: 900;
-            font-size: 60px;
-            transition: 0.5s ease-in-out;
-        }
-        .product-second {
-            display:flex;
-            background-image: url(images/productblur.jpg);
-            height: 100vh;
-            background-size: cover;
-            justify-content:space-around;
-            align-items: center;
-            font-size:50px;
-            font-weight: 900;
-            text-align: center;
-        }
-        .product-second a {
-            text-decoration: none;
-            text-align: center;
-            margin-left: 200px;
-        }
-        .product-second h5 {
-            transition: 0.5s ease-in-out;
-        }
-        .product-second h5:hover {
-            transform: scale(1.1);
-        }
-        .product-columns {
-            display:flex;
-            background-color:black;
-        }
-    </style>
 </head>
-<body class="products">
     <div class="navbar">
         <a href="index.html"><img class="logo" src="images/logo.png" alt=""></a>
         <ul>
@@ -59,63 +16,49 @@
             <li><a href="products.html">Products</a></li>
         </ul>
     </div>
-    <div class="product-banner">
-            <h5>Products</h5>
+    <div class="banner-main-product">
+        <h5>Products</h5>
     </div>
-    <div class="product-second">
-        <div>
-            <h5><a href="#mostpopular">Most <br> Popular</a></h5>
-        </div>
-        <div>
-            <h5><a href="#newarrivals">New <br> Arrivals</a></h5>
-        </div>
-        <div>
-            <h5><a href="#budgetfriendly">Budget <br> Friendly</a></h5>
-        </div>  
+    <div class="categories-product">
+            <h5><a href="#mostpopular">Most<br>Popular</a></h5>
+            <h5><a href="#newarrivals">New<br>Arrivals</a></h5>
+            <h5><a href="#budgetfriendly">Budget<br>Friendly</a></h5>   
     </div>
     <h1 id="mostpopular">Most Popular</h1>
     <div class="product-columns">
-        <div class="products_card_custom"> <br> <br> <br>
-            <img src="images/lenovoproduct.png"> <br> <br> <br>
+        <div class="products_card_custom"> 
+            <img src="images/lenovoproduct.png">
             <h3>Lenovo Legion 7</h3> <br>
             <p>
                 Gaming prowess with AMD Advantage™ Edition gaming laptops <br>
                 Beautiful 16″ WQXGA display options including 240Hz variable refresh rate <br>
                 Engineered for enthusiasts with AMD Radeon™ 6000M graphics <br>
             </p>
-            <button class="product-website-button"><a href="p1.html">Details</a></button>
+            <a class="product-website-button" href="p1.html">Details</a>
         </div>
-        <div class="products_card_custom"> <br> <br> <br>
-            <img src="images/hpomen.png"> <br> <br> <br>
+        <div class="products_card_custom"> 
+            <img src="images/hpomen.png"> <br>
             <h3>OMEN HP Laptop 16T-K000</h3> <br>
             <p>Windows 11 Home
                 Intel® Core™ i5-12500H (up to 4.5 GHz, 18 MB L3 cache, 12 cores, 16 threads) + NVIDIA® GeForce RTX™ 3050 Laptop GPU (4 GB)
                 16 GB DDR5-4800 SDRAM (2 x 8 GB)
                 512 GB PCIe® NVMe™ TLC M.2 SSD (4x4 SSD)</p>
-            <button class="product-website-button"><a href="https://www.razer.com">Details</a></button>
+            <a class="product-website-button" href="https://www.razer.com">Details</a>
         </div>
-        <div class="products_card_custom"> <br> <br> <br>
+        <div class="products_card_custom"> 
             <img src="images/asusproduct.png"> 
             <h3>ROG Zephyrus G15 (2022) GA503</h3> <br>
-            <p>AMD Ryzen™ 9 6900HS Mobile Processor (8-core/16-thread, 16MB cache, up to 4.9 GHz max boost)
-                NVIDIA® GeForce RTX™ 3070 Ti Laptop GPU
-                ROG Boost: 1085MHz* at 120W (1035MHz Boost Clock+50MHz OC, 100W+20W Dynamic Boost)
-                8GB GDDR6 16GB DDR5 on board
-                16GB DDR5-4800 SO-DIMM
-                Max Capacity:
-                48GB
-                Support dual channel memory. Smart Amp Technology
-                Dolby Atmos
-                AI noise-canceling technology
-                Hi-Res certification
-                Built-in array microphone
-                2x 2W Tweeter
-                2x 2W dual-force woofer with Smart Amp Technology
+            <p>AMD Ryzen™ 9 6900HS Mobile Processor (8-core/16-thread, 16MB cache, up to 4.9 GHz max boost) <br>
+                NVIDIA® GeForce RTX™ 3070 Ti Laptop GPU <br>
+                ROG Boost: 1085MHz* at 120W (1035MHz Boost Clock+50MHz OC, 100W+20W Dynamic Boost) <br>
+                8GB GDDR6 16GB DDR5 on board <br>
+                16GB DDR5-4800 SO-DIMM <br>
+                Max Capacity:48GB <br>
             </p>
-            <button class="product-website-button"><a href="https://www.razer.com">Details</a></button>
+            <a class="product-website-button" href="https://www.razer.com">Details</a>
         </div>
-        <div class="products_card_custom"> <br> <br> <br>
-            <img src="images/asusproduct2.png"> 
+        <div class="products_card_custom">
+            <img src="images/asusproduct2.png"> <br> <br>
             <h3>ROG Zephyrus G14</h3> <br>
             <p>
                 AMD Ryzen™ 7 4800HS Mobile Processor (8-core/16-thread, 12MB Cache, 4.2 GHz max boost).
@@ -128,52 +71,44 @@
                 2x 0.7W tweeter
                 2x 2.5W speaker with Smart Amp Technology
             </p>
-            <button class="product-website-button"><a href="https://www.razer.com">Details</a></button>
+            <a class="product-website-button" href="https://www.razer.com">Details</a>
         </div>
     </div>
     <h1 id="newarrivals">New Arrivals</h1>
     <div class="product-columns">
-        <div class="products_card_custom"> <br> <br> <br>
-            <img src="images/lenovoproduct.png"> <br> <br> <br>
+        <div class="products_card_custom">
+            <img src="images/lenovoproduct.png"> 
             <h3>Lenovo Legion 7</h3> <br>
             <p>
                 Gaming prowess with AMD Advantage™ Edition gaming laptops <br>
                 Beautiful 16″ WQXGA display options including 240Hz variable refresh rate <br>
                 Engineered for enthusiasts with AMD Radeon™ 6000M graphics <br>
             </p>
-            <button class="product-website-button"><a href="https://www.razer.com">Details</a></button>
+            <a class="product-website-button" href="https://www.razer.com">Details</a>
         </div>
-        <div class="products_card_custom"> <br> <br> <br>
-            <img src="images/hpomen.png"> <br> <br> <br>
+        <div class="products_card_custom">
+            <img src="images/hpomen.png"> <br>
             <h3>OMEN HP Laptop 16T-K000</h3> <br>
             <p>Windows 11 Home
                 Intel® Core™ i5-12500H (up to 4.5 GHz, 18 MB L3 cache, 12 cores, 16 threads) + NVIDIA® GeForce RTX™ 3050 Laptop GPU (4 GB)
                 16 GB DDR5-4800 SDRAM (2 x 8 GB)
                 512 GB PCIe® NVMe™ TLC M.2 SSD (4x4 SSD)</p>
-            <button class="product-website-button"><a href="https://www.razer.com">Details</a></button>
+                <a class="product-website-button" href="https://www.razer.com">Details</a>
         </div>
-        <div class="products_card_custom"> <br> <br> <br>
+        <div class="products_card_custom">
             <img src="images/asusproduct.png"> 
             <h3>ROG Zephyrus G15 (2022) GA503</h3> <br>
-            <p>AMD Ryzen™ 9 6900HS Mobile Processor (8-core/16-thread, 16MB cache, up to 4.9 GHz max boost)
-                NVIDIA® GeForce RTX™ 3070 Ti Laptop GPU
-                ROG Boost: 1085MHz* at 120W (1035MHz Boost Clock+50MHz OC, 100W+20W Dynamic Boost)
-                8GB GDDR6 16GB DDR5 on board
-                16GB DDR5-4800 SO-DIMM
-                Max Capacity:
-                48GB
-                Support dual channel memory. Smart Amp Technology
-                Dolby Atmos
-                AI noise-canceling technology
-                Hi-Res certification
-                Built-in array microphone
-                2x 2W Tweeter
-                2x 2W dual-force woofer with Smart Amp Technology
+            <p>AMD Ryzen™ 9 6900HS Mobile Processor (8-core/16-thread, 16MB cache, up to 4.9 GHz max boost) <br>
+                NVIDIA® GeForce RTX™ 3070 Ti Laptop GPU <br>
+                ROG Boost: 1085MHz* at 120W (1035MHz Boost Clock+50MHz OC, 100W+20W Dynamic Boost) <br>
+                8GB GDDR6 16GB DDR5 on board <br>
+                16GB DDR5-4800 SO-DIMM <br>
+                Max Capacity:48GB <br>
             </p>
-            <button class="product-website-button"><a href="https://www.razer.com">Details</a></button>
+            <a class="product-website-button" href="https://www.razer.com">Details</a>
         </div>
-        <div class="products_card_custom"> <br> <br> <br>
-            <img src="images/asusproduct2.png"> 
+        <div class="products_card_custom">
+            <img src="images/asusproduct2.png"> <br> <br>
             <h3>ROG Zephyrus G14</h3> <br>
             <p>
                 AMD Ryzen™ 7 4800HS Mobile Processor (8-core/16-thread, 12MB Cache, 4.2 GHz max boost).
@@ -186,52 +121,44 @@
                 2x 0.7W tweeter
                 2x 2.5W speaker with Smart Amp Technology
             </p>
-            <button class="product-website-button"><a href="https://www.razer.com">Details</a></button>
+            <a class="product-website-button" href="https://www.razer.com">Details</a>
         </div>
     </div>
     <h1 id="budgetfriendly">Budget Friendly</h1>
     <div class="product-columns">
-        <div class="products_card_custom"> <br> <br> <br>
-            <img src="images/lenovoproduct.png"> <br> <br> <br>
+        <div class="products_card_custom"> 
+            <img src="images/lenovoproduct.png">
             <h3>Lenovo Legion 7</h3> <br>
             <p>
                 Gaming prowess with AMD Advantage™ Edition gaming laptops <br>
                 Beautiful 16″ WQXGA display options including 240Hz variable refresh rate <br>
                 Engineered for enthusiasts with AMD Radeon™ 6000M graphics <br>
             </p>
-            <button class="product-website-button"><a href="https://www.razer.com">Details</a></button>
+            <a class="product-website-button" href="https://www.razer.com">Details</a>
         </div>
-        <div class="products_card_custom"> <br> <br> <br>
-            <img src="images/hpomen.png"> <br> <br> <br>
+        <div class="products_card_custom"> 
+            <img src="images/hpomen.png"> <br>
             <h3>OMEN HP Laptop 16T-K000</h3> <br>
             <p>Windows 11 Home
                 Intel® Core™ i5-12500H (up to 4.5 GHz, 18 MB L3 cache, 12 cores, 16 threads) + NVIDIA® GeForce RTX™ 3050 Laptop GPU (4 GB)
                 16 GB DDR5-4800 SDRAM (2 x 8 GB)
                 512 GB PCIe® NVMe™ TLC M.2 SSD (4x4 SSD)</p>
-            <button class="product-website-button"><a href="https://www.razer.com">Details</a></button>
+                <a class="product-website-button" href="https://www.razer.com">Details</a>
         </div>
-        <div class="products_card_custom"> <br> <br> <br>
+        <div class="products_card_custom">
             <img src="images/asusproduct.png"> 
             <h3>ROG Zephyrus G15 (2022) GA503</h3> <br>
-            <p>AMD Ryzen™ 9 6900HS Mobile Processor (8-core/16-thread, 16MB cache, up to 4.9 GHz max boost)
-                NVIDIA® GeForce RTX™ 3070 Ti Laptop GPU
-                ROG Boost: 1085MHz* at 120W (1035MHz Boost Clock+50MHz OC, 100W+20W Dynamic Boost)
-                8GB GDDR6 16GB DDR5 on board
-                16GB DDR5-4800 SO-DIMM
-                Max Capacity:
-                48GB
-                Support dual channel memory. Smart Amp Technology
-                Dolby Atmos
-                AI noise-canceling technology
-                Hi-Res certification
-                Built-in array microphone
-                2x 2W Tweeter
-                2x 2W dual-force woofer with Smart Amp Technology
+            <p>AMD Ryzen™ 9 6900HS Mobile Processor (8-core/16-thread, 16MB cache, up to 4.9 GHz max boost) <br>
+                NVIDIA® GeForce RTX™ 3070 Ti Laptop GPU <br>
+                ROG Boost: 1085MHz* at 120W (1035MHz Boost Clock+50MHz OC, 100W+20W Dynamic Boost) <br>
+                8GB GDDR6 16GB DDR5 on board <br>
+                16GB DDR5-4800 SO-DIMM <br>
+                Max Capacity:48GB <br>
             </p>
-            <button class="product-website-button"><a href="https://www.razer.com">Details</a></button>
+            <a class="product-website-button" href="https://www.razer.com">Details</a>
         </div>
-        <div class="products_card_custom"> <br> <br> <br>
-            <img src="images/asusproduct2.png"> 
+        <div class="products_card_custom"> 
+            <img src="images/asusproduct2.png"> <br> <br>
             <h3>ROG Zephyrus G14</h3> <br>
             <p>
                 AMD Ryzen™ 7 4800HS Mobile Processor (8-core/16-thread, 12MB Cache, 4.2 GHz max boost).
@@ -244,7 +171,7 @@
                 2x 0.7W tweeter
                 2x 2.5W speaker with Smart Amp Technology
             </p>
-            <button class="product-website-button"><a href="https://www.razer.com">Details</a></button>
+            <a class="product-website-button" href="https://www.razer.com">Details</a>
         </div>
     </div>
     

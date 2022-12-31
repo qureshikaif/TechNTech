@@ -13,6 +13,15 @@ h5 {
     text-align: center;
 }
 
+/* HOME CSS STARTS HERE*/
+.banner-home {
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.75)),url('images/banner1.png');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
 .card-container-home {
   display: flex;
   padding: 0;
@@ -22,6 +31,82 @@ h5 {
   align-items: center;
   flex-wrap: wrap;
 }
+.website-button-home {
+    width:100px;
+    margin-top:50px;
+    background-color:green;
+    border-radius: 10px 10px 10px;
+    height:40px;
+    transition: 0.5s ease-in-out;;
+}
+.website-button-home:hover {
+    transform: scale(1.1);
+}
+.website-button-home a {
+    text-decoration: none;
+}
+.youtube-content-home {
+    background:black;
+    width: 100%;
+}
+.brands-card-home p {
+    font-size:13px;
+    text-align: justify;
+}
+.youtube-content-home iframe {
+    width:100%;
+    height:100vh;
+}
+.brands-card-home {
+    border:1px solid grey;
+    width:330px;
+    background-color:rgb(24, 24, 24);
+    text-align:center;
+    padding:15px;
+    margin: 50px;
+    color:white;
+    box-shadow: 0px 0px 20px green;
+    transform: scale(1);
+    transition: 0.5s ease-in-out; 
+}
+.brands-card-home img {
+    width: 100px;
+}
+.brands-card-home:hover {
+    box-shadow:20px 10px 0px green;
+    transform: scale(1.02);
+}
+/* HOME CSS ENDS HERE */
+
+/* ABOUT CSS STARTS HERE */
+.text-img-container-about {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: rgb(24, 24, 24);
+}
+.text-img-container-about img {
+    width:20%;
+    height: 20%;
+}
+.text-items-about {
+    width: 60%;
+    text-align: justify;
+    padding: 10px;
+}
+.img-container-about { 
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    background-color:rgb(44, 44, 44);
+    align-items: center;
+}
+.img-container-about img {
+    width:30%;
+}
+/* ABOUT CSS ENDS HERE */
+
+/* CONTACT CSS STARTS HERE */
 .contactMain {
     background-attachment: fixed;
     background-size: cover;
@@ -33,7 +118,6 @@ h5 {
     font-weight:1000;
     color:white;
     line-height:100vh;
-    
 }
 .sendMessageDiv {
     margin-top: 100px;
@@ -48,7 +132,6 @@ h5 {
     font-size:35px;
     font-weight: 900;
 }
-
 .whatsNextDiv {
     border: 1px solid green;
     border-radius: 0px 15px 15px 0px;
@@ -59,19 +142,6 @@ h5 {
 }
 .whatsNextDiv div {
     padding-left: 30px;
-}
-.footer {
-    background-color:rgb(24, 24, 24);
-    width: 100%;
-    display: flex;
-    justify-content:center;
-    align-items: center;
-}
-
-input,textarea {
-    width: 100%;
-    padding: 20px;
-    margin: 5px;
 }
 .inputCustom {
     width:160px;
@@ -110,39 +180,11 @@ input,textarea {
 .submitCustom:hover {
     background-color: black;
 }
-.footer-items a {
-    text-decoration: none;
-}
-.text-img-container-about {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    background-color: rgb(24, 24, 24);
-}
-.text-img-container-about img {
-    width:20%;
-    height: 20%;
-}
-.text-items-about {
-    width: 60%;
-    text-align: justify;
-    padding: 10px;
-}
-.img-container-about { 
-    padding: 100px;
-    display: flex;
-    flex-direction: column;
-    background-color:rgb(44, 44, 44);
-    align-items: center;
-}
 .whatsNextDiv a {
     font-size:20px;
     font-weight:1000;
     color:green;
     text-decoration: none;
-}
-.footer > div:nth-child(2) {
-    margin-left: 200px;
 }
 .location-div-contact {
     padding: 20px;
@@ -157,7 +199,52 @@ input,textarea {
     font-weight: 900;
     font-size:25px;
 }
-.products {   
+.location-container-contact {
+    display: flex;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+.message-next-contact {
+    display:flex;
+    background-color: black;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+input,textarea {
+    width: 100%;
+    padding: 20px;
+    margin: 5px;
+}
+/* CONTACT CSS ENDS HERE */
+
+/* FOOTER CSS STARTS HERE */
+.footer {
+    background-color:rgb(24, 24, 24);
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.footer-items a {
+    text-decoration: none;
+}
+.footer > div:nth-child(2) {
+    margin-left: 200px;
+}
+.footer-items {
+    flex-wrap: wrap;
+    width:33%;
+    padding: 50px;
+}
+/* FOOTER CSS ENDS HERE */
+
+/* PRODUCT CSS STARTS HERE */
+.banner-main-product { 
+    justify-content: center;
+    align-items: center; 
+    display: flex; 
     width: 100%;
     height: 100vh;
     background-image:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.75)),url('images/background.jpg');
@@ -165,12 +252,53 @@ input,textarea {
     background-size: cover;
     background-attachment: fixed;
 }
+.banner-main-product h5:hover {
+    transform: scale(1.1);
+}
+.banner-main-product h5 {
+    font-weight: 900;
+    font-size: 60px;
+    transition: 0.5s ease-in-out;
+}
+.categories-product {
+    display:flex;
+    background-image: url(images/productblur.jpg);
+    height: 100vh;
+    background-size: cover;
+    justify-content: space-around;
+    align-items: center;
+    font-size:50px;
+    font-weight: 900;
+}
+.categories-product a {
+    text-decoration: none;
+    text-align: center;
+}
+.categories-product h5 {
+    transition: 0.5s ease-in-out;
+}
+.categories-product h5:hover {
+    transform: scale(1.1);
+}
+.categories-product > h5:nth-child(2) {
+    margin-left: 50px;
+}
+.product-columns {
+    display:flex;
+    flex-wrap: wrap;
+    background-color:black;
+}
 .products_card_custom {
+    display: flex;
+    overflow: hidden;;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     border:1px solid rgb(0, 90, 0);
-    width:336px;
+    width:326px;
     background-color:rgb(24, 24, 24);
     text-align:center;
-    padding:15px;
+    padding:20px;
     color:white;
     transition:0.6s ease-in-out;
 }
@@ -178,52 +306,29 @@ input,textarea {
     background-color: rgb(44, 44, 44);
 }
 .products_card_custom img {
-    width: 100%;
+    width: 300px;
+    height:200px;
+    object-fit: cover;
 }
 .product-website-button {
-    width:50%;
-    margin-top: 30px;
-    background-color:green;
-    height:40px;
-    transition: 0.5s ease-in-out;;
-}
-.img-container-about img {
+    text-decoration: none;
+    display: block;
+    padding: 10px;
     width:30%;
-}
-.website-button-home {
-    width:100px;
-    margin-top:50px;
+    margin-top: 50px;
     background-color:green;
-    border-radius: 10px 10px 10px;
-    height:40px;
-    transition: 0.5s ease-in-out;;
+    transition: 0.5s ease-in-out;
 }
-.website-button-home:hover {
-    transform: scale(1.1);
+.product-website-button:hover {
+    background-color:rgb(0, 82, 0);
 }
-.website-button-home a {
+.product-website-button a {
     text-decoration: none;
 }
-.youtube-content-home {
-    background:black;
-    width: 100%;
+img[src="images/asusproduct2.png"] {
+    transform: scale(1.3);
 }
-.brands-card-home p {
-    font-size:13px;
-    text-align: justify;
-}
-.youtube-content-home iframe {
-    width:100%;
-    height:100vh;
-}
-.banner {
-    width: 100%;
-    height: 100vh;
-    background-image:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.75)),url('images/banner1.png');
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-}
+/* PRODUCT CSS ENDS HERE */
 .logo {
     margin-left: 40px;
     margin-top: -20px;
@@ -234,6 +339,7 @@ input,textarea {
 .logo:hover {
     transform: scale(1.1);
 }
+/* NAVIGATION BAR CSS STARTS HERE */
 .navbar {
     width: 100%;
     background: linear-gradient(rgba(23, 23, 23, 0.85),rgba(18, 18, 18, 0.85));
@@ -259,32 +365,10 @@ input,textarea {
 .navbar ul li a:hover {
     color:green;
 }
-.brands-card-home {
-    border:1px solid grey;
-    width:330px;
-    background-color:rgb(24, 24, 24);
-    text-align:center;
-    padding:15px;
-    margin: 50px;
-    color:white;
-    box-shadow: 0px 0px 20px green;
-    transform: scale(1);
-    transition: 0.5s ease-in-out;
-    
-}
-.brands-card-home img {
-    width: 100px;
-}
-.brands-card-home:hover {
-    box-shadow:20px 10px 0px green;
-    transform: scale(1.02);
-}
-.footer-items {
-    flex-wrap: wrap;
-    width:33%;
-    padding: 50px;
-}
-.flex-banner-buttons {
+/* NAVIGATION BAR CSS ENDS HERE */
+
+
+/* .flex-banner-buttons {
     height: 100vh;
     margin-left:100px;
     display: flex;
@@ -305,17 +389,4 @@ input,textarea {
 .flex-banner-buttons button:hover {
     background-color: green;
     transform: scale(1.01);
-}
-.location-container-contact {
-    display: flex;
-    background-color: black;
-    align-items: center;
-    justify-content: center;
-    padding-bottom: 50px;
-}
-.message-next-contact {
-    display:flex;
-    background-color: black;
-    padding-top: 50px;
-    padding-bottom: 100px;
-}
+} */
