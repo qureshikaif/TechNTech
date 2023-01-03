@@ -126,6 +126,7 @@ h5 {
 
 
 /* CONTACT CSS STARTS HERE */
+
 .contactMain {
     background-attachment: fixed;
     background-size: cover;
@@ -137,12 +138,18 @@ h5 {
     color:white;
     line-height:100vh;
 }
+.message-next-contact {
+    display:flex;
+    justify-content: center;;
+    background-color: black;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
 .sendMessageDiv {
     margin-top: 100px;
     background-color:rgb(24, 24, 24);
     border:1px solid green;
-    border-radius: 15px;
-    margin-left: 300px;
+    border-radius: 10px;
     width: 500px;
     height: 700px;
 }
@@ -224,12 +231,7 @@ h5 {
     justify-content: center;
     padding-bottom: 50px;
 }
-.message-next-contact {
-    display:flex;
-    background-color: black;
-    padding-top: 50px;
-    padding-bottom: 100px;
-}
+
 input,textarea {
     width: 100%;
     padding: 20px;
@@ -308,6 +310,7 @@ input,textarea {
 .product-columns {
     display:flex;
     background-color:black;
+    justify-content:center;
 }
 .products_card_custom {
     display: flex;
@@ -316,7 +319,7 @@ input,textarea {
     align-items: center;
     justify-content: center;
     border:1px solid rgb(0, 90, 0);
-    width:326px;
+    width:33%;
     background-color:rgb(24, 24, 24);
     text-align:center;
     padding:20px;
