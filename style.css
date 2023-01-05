@@ -402,12 +402,19 @@ img[src="images/asusproduct2.png"] {
     justify-content: space-evenly;
     background-color: black;
     height: 100vh;
+    padding-top:30px;
 }
 .legion-image {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 600px;
+    height: 600px;
+    background:rgba(24, 24, 24, 0.85);
+    box-shadow: 7px 7px 0px green;
+}
+.legion-image img {
+    width:100%;
 }
 .legion-text {
     width: 50%;
