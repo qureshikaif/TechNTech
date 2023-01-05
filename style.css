@@ -72,14 +72,13 @@ h5 {
     transform: scale(1);
     transition: 0.5s ease-in-out; 
 }
-.brands-card-home img {
-    width: 100px;
-}
 .brands-card-home:hover {
     box-shadow:20px 10px 0px green;
     transform: scale(1.02);
 }
-
+.brands-card-home img {
+    width: 100px;
+}
 
 /* HOME CSS ENDS HERE */
 
