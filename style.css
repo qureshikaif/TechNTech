@@ -395,7 +395,7 @@ img[src="images/asusproduct2.png"] {
 
 
 
-.product-details-legion {
+.product-details {
     display: flex;
     align-items:center;
     justify-content: space-evenly;
@@ -403,7 +403,7 @@ img[src="images/asusproduct2.png"] {
     height: 100vh;
     padding-top:30px;
 }
-.legion-image {
+.product-image {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -412,21 +412,21 @@ img[src="images/asusproduct2.png"] {
     background:rgba(24, 24, 24, 0.85);
     box-shadow: 7px 7px 0px green;
 }
-.legion-image img {
+.product-image img {
     width:100%;
 }
-.legion-text {
+.product-text {
     width: 50%;
     text-align: center;
 }
-.legion-buttons {
+.add-to-cart-back-buttons {
     display: flex;
     align-items: center;
     justify-content: center;
     height: 10vh;
     margin-top: 50px;
 }
-.legion-buttons a {
+.add-to-cart-back-buttons a {
     margin-left: 10px;
     padding: 20px;
     background-color: green;
@@ -434,7 +434,7 @@ img[src="images/asusproduct2.png"] {
     text-decoration: none;
     transition: 0.5s ease-in-out;
 }
-.legion-buttons a:hover {
+.add-to-cart-back-buttons a:hover {
    background-color:rgb(1, 86, 1); 
  }
 
