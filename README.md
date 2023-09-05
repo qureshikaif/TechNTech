@@ -1,1 +1,1 @@
-TechNTech is an online E-commerce store for buying and selling of laptops. This is only the front end which is build using HTML5 and CSS3. 
+TechNTech is an online E-commerce store for buying and selling of laptops. This is only the front end which is build using HTML5 and CSS3. This project uses CSS Flexbox and other hover animations for seamless animations and to make the user experience more interactive.
